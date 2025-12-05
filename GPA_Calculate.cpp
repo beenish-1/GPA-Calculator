@@ -1,18 +1,3 @@
-/*6. Student Portal — GPA Calculator
-
-Write a function that receives marks of 5 subjects and returns:
-Average
-Grade (A, B, C, D, F)
-GPA (based on grade)
-
-Use separate functions:
-calculateAverage()
-calculateGrade()
-convertGradeToGPA()
-
-Main program calls all three to display final result.*/
-
-
 #include<iostream>
 using namespace std;
 
@@ -73,4 +58,5 @@ int main()
     cout<<"Grade: "<<grade<<endl;
     GPA(grade);
     return 0;
+
 }
